@@ -1,0 +1,34 @@
+.parrafo, .desktop, .tablet, .phone{
+    width: 800px;
+    height: 130px;
+}
+.f_bold{
+    font-weight: bold;
+}
+@media screen and (min-width:300px) and (max-width: 480px){
+    .parrafo, .desktop{
+        background-color: yellow;
+        max-width: 50%;
+    }
+    .tablet, .phone{
+        display: none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:1023px){
+    .parrafo, .tablet{
+        background-color: gray;
+        max-width: 70%;
+    }
+    .desktop, .phone{
+        display: none;
+    }
+}
+@media (min-width: 1024px){
+    .parrafo, .desktop{
+        background-color: indianred;
+        max-width: 100%;
+    }    
+    .tablet, .phone{
+        display: none;
+    }
+}

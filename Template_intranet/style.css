@@ -1,0 +1,166 @@
+body{
+	min-width: 900px;
+	height: 900px;
+}
+header{
+	min-width: 900px;
+	height: 230px;
+	display: block;
+	justify-content: left;
+}
+.img_head{
+	min-width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+.titulo{
+	font-size: 50px;
+	color: gray;
+	display: inline-block;
+}
+.blue_txt{
+	color: blue;
+}
+.red_txt{
+	color:red;
+}
+.subtitulo{
+	min-width: 900px;
+	height: 100px;
+	background-color: #3B75A6;
+	display: flex;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+.sub_text{
+	color: white;
+	font-size: 40px;
+	text-align: left;
+}
+#content{
+	display: flex;
+	padding: 35px;
+}
+#content_left{
+	min-width: 230px;
+	padding: 35px;
+	justify-content: center;
+	/*display: flex;
+	justify-content: center;*/
+}
+#content_right{
+	min-width: 670px;
+	justify-content: right;
+}
+p{
+	font-size: 20px;
+}
+#btn{
+	text-align: center;
+	justify-content:center;
+}
+.btn_1{
+	background-color: #2C6BA1;
+	font-size: 20px;
+	color: white;
+	display: block;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.btn_2{
+	background-color: #D7A050;
+	font-size: 20px;
+	color: white;
+	display: block;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.lineal{
+	height: 0.5px;
+	background-color: gray;
+	text-align: center;
+}
+.fondo{
+	height: 370px;
+	position: absolute;
+}
+.img_txt{
+	min-width: 280px;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	font-style: italic;
+	text-align: center;
+	vertical-align: center;
+
+}
+.ninja{
+	height: 250px;
+	position: absolute;
+	padding: 40px;
+	padding-top: 110px;
+
+}
+.btn_more{
+	background-color: #16C5DF;
+	position: absolute;
+	color: white;
+	border-radius: 20px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#head_body{
+	min-width: 400px;
+	height: 170px;
+}
+.img_home{
+	min-width: 30px;
+	height: 30px;
+	padding-top: 15px;
+}
+#dns{
+	min-width: 100px;
+	height: 60px;
+	display: flex;
+	padding-top: 60px;
+}
+#info_phone{
+	display: block;
+	padding-bottom: 30px;
+}
+.img_phone{
+	min-width: 30px;
+	height: 30px;
+}
+.parrafos{
+	font-size: 20px;
+}
+.negrita{
+	font-weight: bold;
+}
+#informacion{
+	height: 700px;
+	display: inline-block;
+	padding-top: 200px;
+}
+.server_img{
+	min-width: 280px;
+	height: 120px;
+	justify-content: center;
+}
+#box{
+	min-width: 400px;
+	height: 120px;
+	outline: solid blue;
+}
+.big_3{
+	display: flex;
+}
+.big3_img{
+	min-width: 120px;
+	height: 120px;
+	
+}

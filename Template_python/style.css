@@ -1,0 +1,114 @@
+#contenedor_general{
+	min-width: 900px;
+	height: 900px;
+	background-color: #245076;
+}
+#banner{
+	min-width: 900px;
+	height: 200px;
+
+}
+.nav{
+	min-width: 700px;
+	height: 40px;
+	background-color: #3E7AAD;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+}
+#input{
+	min-width: 90px;
+	height: 40px;
+	background-color: #444444;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 30px;
+	display: inline;
+}
+#btn_go{
+	background-color: #245076;
+	color: #fff;
+	text-align: center;
+}
+.menu{
+	text-align: center;
+	font-size: 38px;
+	color: #fff;
+	margin: 12px;
+}
+#content{
+	min-width: 700px;
+	height: 350px;
+	background-color: #245076;
+	padding: 20px;
+	margin: 75px;
+	display: flex;
+}
+.lista{
+	min-width: 250px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+}
+#texto{
+	min-width: 450px;
+}
+.parr_1, .parr_3{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+.parr_2{
+	color: #DFC13A;
+	font-style: italic;
+	font-size: 29px;
+	text-align: center;
+}
+.list{
+	color: #fff;
+}
+#bloques{
+	min-width: 700px;
+	height: 500px;
+	display: flex;
+	background-color: #fff;
+}
+#bloque_izq, #bloque_der{
+	color: black;
+	text-align: center
+	outline: solid;
+	margin: 20px;
+	padding: 30px;
+}
+.division{
+	min-width: 70px;
+	height: 10px;
+	background-color: #73A7D5;
+}
+a{
+	text-align: center;
+	font-size: 30px;
+}
+.parr_4, h2{
+	text-align: center;
+	font-size: 30px;
+}
+.list_sq{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+footer{
+	min-width: 900px;
+	background-color: #245076;
+}
+.info{
+	text-align: center;
+	margin: 10px;
+	color: #fff;
+	display: inline;
+}
+
+

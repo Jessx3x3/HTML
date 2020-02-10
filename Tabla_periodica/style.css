@@ -1,0 +1,56 @@
+#content, footer{
+    min-width: 800px;
+    height: 800px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: 1fr;
+}
+.row_1, .row_2, .row_3, .row_4, .row_5, .row_6, .row_7{
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: 1fr;
+}
+.box{
+    border-radius: 10%;
+    text-align: center;
+    margin: 4%;
+}
+.col_1, .col_2{
+    background-image: linear-gradient(to bottom right, cornflowerblue, rgb(40, 68, 226));
+}
+.col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12{
+    background-image: linear-gradient(to bottom right, darksalmon, rgb(219, 98, 85));
+}
+.col_13, .col_14, .col_15, .col_16, .col_17, .col_18{
+    background-image: linear-gradient(to bottom right, rgb(245, 245, 86), rgb(235, 235, 48));
+}
+.empty{
+    background-color: white;
+}
+.indice, .index_aside{
+    text-align: center;
+    color: red;
+    font-size: large;
+    justify-items: center;
+}
+.name{
+    font-weight: bold;
+    font-size: small;
+    color: blue;
+}
+.noids{
+    color: red;
+    font-size: x-large;
+    text-align: left;
+}
+.last_row_1, .last_row_2{
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.row_green{
+    background-image: linear-gradient(to bottom right, rgb(87, 212, 87), rgb(69, 206, 50));
+}
+

@@ -1,0 +1,78 @@
+header{
+	height: 120px;
+	margin: 10px;
+	padding: 10px;
+}
+#box{
+	min-width: 700px;
+	height: 900px;
+	margin: 10px;
+	background-color: #4B3840;
+}
+.perfil_m{
+	min-height: 320px;
+	height: 320px;
+	margin: 10px;
+	background-color: #E0D4E0;
+	border: solid;
+}
+#box_1{
+	min-width: 700px;
+	height: 400px;
+	background-color: #4B3840;
+	display: flex;
+}
+.about{
+	min-width: 300px;
+	height: 300px;
+	margin: 20px;
+	background-color: #E0D4E0;
+}
+#box_2{
+	min-width: 300px;
+	height: 900px;
+	display: flex;
+	background-color: #4B3840;
+}
+.articulo_1, .articulo_2, .articulo_3{
+	min-width: 300px;
+	height: 850px;
+	margin: 10px;
+	background-color: #E0D4E0;
+	padding: 10px;
+}
+.title{
+	background-color: #E8E2E7;
+	color: black;
+	font-size: 30px;
+	text-align: left;
+}
+.img_articulo{
+	min-width: 200px;
+	height: 200px;
+	padding: 20px;
+}
+.img_tecno{
+	min-width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+#btn_lamode, #btn_family, #btn_five{
+	min-width: 40px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	border: solid black;
+}
+.icon{
+	min-width: 18px;
+	height: 18px;
+	vertical-align: bottom;
+}
+#last{
+	 text-align: center;
+}
